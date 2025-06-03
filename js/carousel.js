@@ -7,8 +7,7 @@ class Carousel {
         this.url = url;
     } //classe carousel e a funçao constructor que cria o slide
 
-    static index = 0;
-    static setInterval = 0;
+    static index = 0; //slide começa do 0, ou seja, do primeiro.
 
     static Start(carouselArr) {
         Carousel.Show(carouselArr[Carousel.index]);
