@@ -17,7 +17,6 @@ class Contato {
       form.elements.namedItem("contato").value
     );
   
-    console.log("Dados enviados:", data); // ✅ Veja no console do navegador
   }
   
   function Enviar() {

@@ -15,7 +15,7 @@ class Carousel {
         Carousel.setInterval = setInterval(() => {
             Carousel.index = (Carousel.index + 1) % carouselArr.length;
             Carousel.Show(carouselArr[Carousel.index]);
-        }, 5000);
+        }, 2000);
     }
 
         static Show(carouselItem) {
