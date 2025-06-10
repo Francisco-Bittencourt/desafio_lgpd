@@ -45,6 +45,7 @@ h2 {
 button {
     width: 200px;
     height: 40px;
+    margin-top: 20px;
     margin-right: 8px;
     float: right;
 }
